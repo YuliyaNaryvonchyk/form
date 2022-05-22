@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Nunito-Bold";
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Nunito-ExtraBold";
+    src: url("../fonts/Nunito-ExtraBold.ttf");
+}
+
+body {
+    margin: 0;
+    background:linear-gradient(to right, #FFFFFB 50%, #F8F8FA 50%); ;
+    font-family: Nunito-Bold, sans-serif;
+}
+
+#title {
+    margin: 27px auto 0;
+    text-align: center;
+    font-family: Nunito-ExtraBold, sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    padding-right: 8px;
+}
+
+#title span {
+    color: #DD3142;
+    font-size: 50px;
+}
+
+#info-container {
+    margin-top: 112px;
+    margin-bottom: 191px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+#form {
+    max-width: 452px;
+}
+
+#title-form {
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 7px;
+}
+
+#form-text {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 42px;
+}
+
+.form-text {
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+    margin-bottom: 5px;
+}
+
+#form-container input {
+    margin-bottom: 20px;
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    border: 0;
+    border-bottom: 1px solid #C6C6C4;
+    background-color: transparent;
+    width: 100%;
+    padding: 0;
+}
+
+#form-container input:last-child {
+    margin-bottom: 30px;
+    width: auto;
+}
+
+input:focus {
+    outline: 0;
+}
+
+::placeholder {
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+}
+
+.text-color {
+    color: #636363;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+input#form-button {
+    width: auto;
+    border: 0;
+    padding: 21px 68px 25px;
+    background: #DD3142;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: Nunito-Bold, sans-serif;
+    margin: 35px auto 44px;
+    display: block;
+}
+
+.form-text:last-child {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#account_check a {
+    text-decoration: none;
+    color: #636363;
+}
+
+#account_check a:hover {
+    color: #424242;
+}
